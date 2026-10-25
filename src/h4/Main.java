@@ -17,7 +17,7 @@ public class Main {
 		System.out.println("a= " + a);
 		System.out.println("b= " + b);
 		System.out.println("x= " + x);
-		System.out.println("Division: " + div);
+		System.out.println("Division a: " + div);
 		
 		//b  // ich weiß nicht genau, wie ich die verschiedenen Beispiele hochladen soll
 		a = -3; 
@@ -27,7 +27,7 @@ public class Main {
 		System.out.println("a= " + a);
 		System.out.println("b= " + b);
 		System.out.println("x= " + x);
-		System.out.println("Division: " + div);
+		System.out.println("Division b: " + div);
 		
 		// c
 		
@@ -37,7 +37,7 @@ public class Main {
 		System.out.println("a= " + a);
 		System.out.println("b= " + b);
 		System.out.println("x= " + x);
-		System.out.println("Division: " + div);
+		System.out.println("Division c: " + div);
 
 		
 		// d
@@ -47,7 +47,7 @@ public class Main {
 		div = b / a; 
 		System.out.println("a= " + a);
 		System.out.println("b= " + b);
-		System.out.println("Division: " + div); // Fehlermeldung: Exception in thread "main" java.lang.ArithmeticException: / by zero
+		System.out.println("Division d: " + div); // Fehlermeldung: Exception in thread "main" java.lang.ArithmeticException: / by zero
 
 		
 		// e
@@ -57,9 +57,32 @@ public class Main {
 		div = b / a; 
 		System.out.println("a= " + a);
 		System.out.println("b= " + b);
-		System.out.println("Division: " + div); // stimmt, bei 7/5 wäre die nächstkleinse 1, 7/10 => Ausgabe: 0; 
+		System.out.println("Division e: " + div); // stimmt, bei 7/5 wäre die nächstkleinse 1, 7/10 => Ausgabe: 0; 
 		
 		
+		//f 
+		a = 10; 
+		b = -6; 
+		div = a/b; 
+		System.out.println("a= " + a);
+		System.out.println("b= " + b);
+		System.out.println("Division f: " + div);
+		
+		// g 
+		a = - 10;
+		b = 6; 
+		div = a/b;
+		System.out.println("a= " + a);
+		System.out.println("b= " + b);
+		System.out.println("Division g: " + div);
+		
+		//h 
+		
+		a = -10; 
+		b = -6; 
+		System.out.println("a= " + a);
+		System.out.println("b= " + b);
+		System.out.println("Division h" + div);
 	}
 	
 	
