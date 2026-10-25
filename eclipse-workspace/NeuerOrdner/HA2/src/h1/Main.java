@@ -1,0 +1,17 @@
+package h1;
+
+public class Main {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		
+			int x = 100; 
+			int y = 50; 
+			int sum = x + y; 
+			
+			System.out.println(sum);
+		
+		
+	}
+	
+}
