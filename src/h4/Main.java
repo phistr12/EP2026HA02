@@ -80,6 +80,8 @@ public class Main {
 		
 		a = -10; 
 		b = -6; 
+		div = a / b; 
+		
 		System.out.println("a= " + a);
 		System.out.println("b= " + b);
 		System.out.println("Division h" + div);
